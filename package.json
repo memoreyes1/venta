@@ -1,0 +1,15 @@
+{
+  "name": "pos-monorepo",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev"
+  },
+  "devDependencies": {
+    "turbo": "latest"
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "packageManager": "npm@10.8.2"
+}
